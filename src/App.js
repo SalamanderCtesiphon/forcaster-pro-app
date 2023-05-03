@@ -1,13 +1,11 @@
 import './App.css';
 import UilReact from '@iconscout/react-unicons/icons/uil-react'
+import TopButtons from './components/TopButtons';
 
 function App() {
   return (
-    <div className='App'>
-      <h1 className="text-3xl font-bold underline">
-        Hello world!
-      </h1>
-      <UilReact size="140" color="#61DAFB" />
+    <div className='mx-auto max-w-screen-md py-5 px-32 bg-gradient-to-br from-cyan-700 to-blue-700 h-fit shadow-xl shadow-gray-400'>
+      <TopButtons />
     </div>
   );
 }
