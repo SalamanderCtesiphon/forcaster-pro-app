@@ -1,8 +1,9 @@
 import React from 'react'
 
 function Footer() {
+  const currentYear = new Date().getFullYear()
   return (
-    <div>Footer</div>
+    <div>Weather App &#169; {currentYear}</div>
   )
 }
 
