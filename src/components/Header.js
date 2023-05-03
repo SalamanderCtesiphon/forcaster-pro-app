@@ -2,7 +2,9 @@ import React from 'react'
 
 function Header() {
   return (
-    <div>Header</div>
+    <div className='header'>
+      <h1>Local Weather Forcast</h1>
+    </div>
   )
 }
 
