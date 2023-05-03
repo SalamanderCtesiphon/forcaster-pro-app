@@ -1,58 +1,7 @@
 .App {
   text-align: center;
-  height: 100vh;
-  width: auto;
-  margin: 0;
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  color: white;
-  background-color: rgb(6, 0, 32);
+  
 }
 
-.header {
-  border-bottom: 2px solid orangered;
-  width: 100%;
-  height: auto;
-}
-
-.body {
-  height: 80vh;
-  width: 90vw;
-  border: 1px solid orangered;
-  border-radius: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.search-form {
-  display: flex;
-  height: 60px;
-  width: 400px;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-}
-
-#input {
-  color: white;
-  background-color: rgb(6, 0, 32);
-}
-
-#search-btn {
-  color: white;
-  background-color: rgb(6, 0, 32);
-}
-
-.display {
-  border: 1px solid orangered;
-  border-radius: 20px;
-  height: auto;
-  height: 70vh;
-  width: 80vw;
-}
 
 
