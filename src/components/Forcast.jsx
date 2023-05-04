@@ -17,6 +17,7 @@ function Forcast({title}) {
             alt="sun"
             className="w-12 my-1" 
           />
+          
           <p className="font-medium">22&deg;</p>
         </div>
         <div className="flex flex-col items-center justify-center">
