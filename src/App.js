@@ -3,6 +3,7 @@ import TopButtons from './components/TopButtons';
 import Inputs from './components/Inputs';
 import TimeAndLocation from './components/TimeAndLocation';
 import TemperatureAndDetails from './components/TemperatureAndDetails';
+import Forcast from './components/Forcast';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
 
       <TimeAndLocation />
       <TemperatureAndDetails />
+      <Forcast />
     </div>
   );
 }
