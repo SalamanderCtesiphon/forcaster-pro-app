@@ -44,6 +44,7 @@ function TemperatureAndDetails() {
         <p className="font-light">
           Rise: <span className="font-medium ml-1">06:45 AM</span>
         </p>
+        
         <p className="font-light" >|</p>
         <UilSunset />
         <p className="font-light">
